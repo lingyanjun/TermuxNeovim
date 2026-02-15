@@ -48,7 +48,7 @@ map('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
 map('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
 map('n', '<leader>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
 map('n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
-map('n', '<leader>f', '<cmd>lua vim.lsp.buf.format()<CR>', opts)
+map('n', '<leader>f', '<cmd>lua vim.lsp.buf.format({ formatting_options = { tabSize = 4, insertSpaces = true } })<CR>', opts)
 map('n', '[d', '<cmd>lua vim.diagnostic.goto_prev()<CR>', opts)
 map('n', ']d', '<cmd>lua vim.diagnostic.goto_next()<CR>', opts)
 

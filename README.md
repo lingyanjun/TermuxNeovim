@@ -46,6 +46,7 @@ rm -rf main.zip TermuxNeovim-main
 
 文件目录:
 ├── init.lua
+├── .stylua.toml
 └── lua
     ├── key-maps.lua
     └── plugins
@@ -72,4 +73,7 @@ rm -rf main.zip TermuxNeovim-main
         ├── telescope.lua
         ├── theme.lua
         ├── toggleterm.lua
+        ├── nvim-treesitter.lua
+        ├── neotest.lua
         └── which-key.lua
+        
